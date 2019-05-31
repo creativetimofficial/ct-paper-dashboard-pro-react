@@ -2,7 +2,7 @@
 
 
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-paper-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-paper-dashboard-pro-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-paper-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-paper-dashboard-pro/issues-react?q=is%3Aissue+is%3Aclosed)  [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
+![version](https://img.shields.io/badge/version-1.1.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-paper-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-paper-dashboard-pro-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-paper-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-paper-dashboard-pro/issues-react?q=is%3Aissue+is%3Aclosed)  [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
 ![Product Gif](./github-assets/paper-dashboard-pro-react.gif)
 
