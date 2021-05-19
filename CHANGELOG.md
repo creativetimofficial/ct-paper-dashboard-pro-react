@@ -1,5 +1,57 @@
 # Change Log
 
+## [1.3.0] 2021-05-19
+### Bug fixing
+- We've change all class components to function ones, so now, Paper Dashboard React accepts hooks
+- https://github.com/creativetimofficial/ct-paper-dashboard-pro-react/issues/13
+- https://github.com/creativetimofficial/ct-paper-dashboard-pro-react/issues/12
+### Major style changes
+- Some changes for the `nouislider` styles, since it had a major version change
+### Deleted components
+### Added components
+### Deleted dependencies
+- `history` (no longer needed due to the `BrowserRouter`)
+- `react-google-maps` (replaced by simple Google Maps API)
+- `@types/googlemaps`
+- `@types/markerclustererplus`
+- `@types/react`
+- `ajv` (no longer needed - this was installed so react-scripts install would not show errors)
+### Added dependencies
+### Updated dependencies
+```
+bootstrap                      4.5.0   →    4.6.0
+chart.js                       2.9.3   →    3.2.1
+classnames                     2.2.6   →    2.3.1
+match-sorter                   4.1.0   →    6.3.0
+moment                        2.26.0   →   2.29.1
+node-sass                     4.14.1   →    6.0.0
+nouislider                    14.5.0   →   15.1.0
+perfect-scrollbar              1.5.0   →    1.5.1
+react                        16.13.1   →   17.0.2
+react-big-calendar            0.25.0   →   0.33.2
+react-bootstrap-sweetalert    5.1.11   →    5.2.0
+react-bootstrap-wizard         0.0.7   →    0.0.9
+react-chartjs-2                2.9.0   →    3.0.3
+react-datetime                2.16.3   →    3.0.4
+react-dom                    16.13.1   →   17.0.2
+react-notification-alert      0.0.12   →   0.0.13
+react-scripts                  3.4.1   →    4.0.3
+react-select                   3.1.0   →    4.3.1
+react-table                    7.1.0   →    7.7.0
+reactstrap                     8.4.1   →    8.9.0
+gulp-append-prepend            1.0.8   →    1.0.9
+jquery                         3.5.1   →    3.6.0
+typescript                     3.9.5   →    4.2.4
+```
+### Warning
+_We will update Bootstrap to v5 when we'll release a new design for the Paper products._
+_You will also have the following message: found 80 vulnerabilities (1 low, 79 moderate). This comes from react-scripts, and will be fixed in the next version. NOTE: the product works as expected with these vulnerabilities._
+_The following warnings will be thrown on a clean install of the project - NOTE: the product works as expected with these vulnerabilities. - NOTE: we will drop their usage and replace them with other plugins._
+```
+npm WARN react-datetime@3.0.4 requires a peer of react@^16.5.0 but none is installed. You must install peer dependencies yourself.
+npm WARN react-tagsinput@3.19.0 requires a peer of react@^16.0.0 || ^15.0.0 || ^0.14.0 but none is installed. You must install peer dependencies yourself.
+```
+
 ## [1.2.0] 2020-06-12
 ### Bug fixing
 - Move the `barPercentage` from the `xAxes` to the `datasets` from inside `src/variables/charts.js` to stop warnings from the new Chart.js API
