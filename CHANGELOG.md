@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.3.2] 2023-05-23
+
+- Update dependencies
+- Fix issues
+
 ## [1.3.1] 2021-07-08
 
 - Update the dependencies
